@@ -54,4 +54,11 @@ h2 {
 .Slika img {
     width: 100%;
     height: auto;
+    border-radius: 50%;
+}
+.Slika p:last-child {
+    font-size: 0.8em;
+}
+.Slika p:last-child ::before {
+    content: '🔗';
 }
